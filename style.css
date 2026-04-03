@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, sans-serif;;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+}
+
+.logo h2 {
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 90px;
+    margin: 0;
+    color: #333;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: rgb(234, 151, 27);
+}
+
+#hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.hero-content .started-btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: rgb(234, 151, 27);
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-content .started-btn:hover {
+    background-color: rgb(200, 120, 20);
+}
+
+.hero-img img{
+    width: 400px;
+}
+
+.started-btn{
+    transition: 0.3s;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+@media (max-width:768px){
+    #hero-section{
+        text-align: center;
+        flex-direction: column;
+    }
+    #hero-section .hero-img{
+        width: 250px;
+        margin-top: 20px;
+    }
+    .feature-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.features{
+    text-align: center;
+    padding: 50px;
+}
+
+.feature-container h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.feature-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    background:white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 6px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.card h3{
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer .socials{
+    margin-top: 10px;
+}
+
+.footer a{
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.footer a:hover{
+    color: rgb(234, 151, 27);
+}

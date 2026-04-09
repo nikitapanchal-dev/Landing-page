@@ -1,11 +1,39 @@
-# AI Landing Page - FocusAI
+# 🌐 FocusAI - Landing Page
 
-## Features
-- Responsive design
-- Hero section
-- Feature cards
-- Footer
-- Clean UI
+A modern and responsive landing page built using **HTML and CSS**.
 
-## Tech Used
-HTML, CSS, JavaScript
+---
+
+## 🚀 Live Demo
+
+https://focusai-landing-page.netlify.app/
+
+---
+
+## 📌 Features
+
+* Responsive navigation bar
+* Hero section with call-to-action
+* Features section with cards
+* Clean and modern UI design
+* Footer with social links
+
+---
+
+## 🛠️ Tech Used
+
+* HTML
+* CSS
+
+---
+
+## ▶️ Run Locally
+
+1. Download or clone the project
+2. Open `index.html` in your browser
+
+---
+
+## 👩‍💻 Author
+
+Nikita Panchal
